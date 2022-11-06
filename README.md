@@ -1,5 +1,5 @@
 # notion_pandas
-A library that transforms notion tables into pandas dataframes by connecting with the notion API
+A library that transforms notion tables into pandas dataframes by connecting with Notion API
 
 ## Installation
 1. pip install -r ./requirements.txt
