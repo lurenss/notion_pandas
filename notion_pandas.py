@@ -4,7 +4,7 @@ import pandas as pd
 import json 
 
 #definition object notion_pandas
-class notion_pandas:
+class notionPandas:
     def __init__(self, authh, database_idd):  
         try:
             self.notion =  Client(auth=authh)
