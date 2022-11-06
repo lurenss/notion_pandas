@@ -11,10 +11,10 @@ A library that transforms notion tables into pandas dataframes by connecting wit
 
 ## Example
 ```py
-from notion_pandas import notionPandas 
+from NotionPandas import NotionPandas 
 import pandas as pd
 
-npd = notionPandas("token", "id_table")
+npd = NotionPandas("token", "id_table")
 npd.to_csv('test.csv')
 
 df =  npd.return_pandas()
